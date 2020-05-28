@@ -1,18 +1,18 @@
-import javax.swing.JOptionPane; // Sim, eu quis usar o JOptionPane
+import javax.swing.JOptionPane; // Biblioteca para utilizar o JOptionPane
 
 public class Adivinhacao {
 	
 	public static void main(String[] args) {
 
-int loop = 1; // Variável que irá fazer o jogo repetir quantas vezes desejar.
-int dificuldade; // variável responsável pela entrada na escolha de dificuldades diferentes.
-int seletor; // variável responsável pela escolha da dificuldade.
-int numero_secreto = 0; // Número aleatório do jogo.
-int total_tentativas = 0; // Total de tentativas restantes no jogo.
-int chute = 0; // Responsável por captar o valor digitado.
-int vitorias = 0; // Contador de acertos.
-int contSecreto = 0; // Contador de números secretos.
-int x,y; // Responsáveis pela -> Dificuldade Custom.
+int loop = 1; // Variável que irá fazer o jogo repetir quantas vezes desejar
+int dificuldade; // variável responsável pela entrada na escolha de dificuldades diferentes
+int seletor; // variável responsável pela escolha da dificuldade
+int numero_secreto = 0; // Número aleatório do jogo
+int total_tentativas = 0; // Total de tentativas restantes no jogo
+int chute = 0; // Responsável por captar o valor digitado
+int vitorias = 0; // Contador de acertos
+int contSecreto = 0; // Contador de números secretos
+int x,y; // Responsáveis pela Dificuldade Custom
 
 
 while (loop != 0) {
